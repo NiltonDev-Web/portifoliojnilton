@@ -559,7 +559,7 @@ footer span { color: var(--teal); font-weight: 600; }
         <a href="#portfolio" class="btn-neon btn-primary">
           <i class="fa-solid fa-laptop-code"></i> Ver Projetos
         </a>
-        <a href="https://wa.me/5581991654555?text=Ol%C3%A1%20Jos%C3%A9%20Nilton,%20encontrei%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!" target="_blank" class="btn-neon btn-whatsapp">
+        <a href="https://wa.me/5581991654555?text=Ol%C3%A1%20Jos%C3%A9%20Nilton,%20encontrei%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!" target="_blank" rel="noopener noreferrer" class="btn-neon btn-whatsapp">
           <i class="fa-brands fa-whatsapp"></i> WhatsApp
         </a>
         <a href="#contato" class="btn-neon btn-secondary">
@@ -590,8 +590,9 @@ footer span { color: var(--teal); font-weight: 600; }
           <span class="quick-stat-label">Anos em TI & Indústria</span>
         </div>
         <div class="quick-stat-box">
-          <span class="quick-stat-num">ADS</span>
-          <span class="quick-stat-label">Ensino Superior Concluído</span>
+          <span class="quick-stat-num">Formações</span>
+          <span class="quick-stat-label">Ensino Superior ADS</span>
+          <span class="quick-stat-label">Tec. Autom. Ind</span>
         </div>
         <div class="quick-stat-box">
           <span class="quick-stat-num">WEB & APP</span>
@@ -610,6 +611,7 @@ footer span { color: var(--teal); font-weight: 600; }
         <span class="t-tag">IndexedDB Offline</span>
         <span class="t-tag">SQL & ERPs</span>
         <span class="t-tag">Figma</span>
+        
       </div>
     </div>
   </div>
@@ -805,38 +807,42 @@ footer span { color: var(--teal); font-weight: 600; }
           </div>
         </div>
         <div class="project-card-footer">
-          <a href="https://neon-report-hub.vercel.app/" target="_blank" class="project-btn project-btn-primary">
+          <a href="https://neon-report-hub.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-primary">
             <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Demo Web
           </a>
-          <a href="https://github.com/NiltonDev-Web/neon-report-hub" target="_blank" class="project-btn project-btn-secondary">
+          <a href="https://github.com/NiltonDev-Web/neon-report-hub" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-secondary">
             <i class="fa-brands fa-github"></i> Código GitHub
           </a>
         </div>
       </div>
 
-      <!-- PROJETO 2: NS Serviços -->
+      <!-- PROJETO 2: NS Serviços Especializados -->
       <div class="project-card">
         <div class="project-card-body">
-          <span class="project-category">Landing Page Comercial</span>
+          <span class="project-category">Landing Page Comercial & Industrial</span>
           <h3>NS Serviços Especializados</h3>
           <p>
-            Plataforma institucional moderna para serviços especializados de manutenção e calibração industrial. Desenvolvida com identidade visual limpa, alta performance de renderização e foco direto em conversão de leads e orçamentos.
+            Plataforma institucional moderna para serviços especializados de manutenção e calibração de balanças industriais. Desenvolvida com identidade visual limpa, alta performance de renderização, SEO e integração direta para orçamentos e captação de clientes.
           </p>
           <ul class="project-highlights">
             <li><i class="fa-solid fa-check"></i> Design 100% responsivo para celulares e desktops</li>
             <li><i class="fa-solid fa-check"></i> Estrutura componentizada e otimizada para SEO</li>
-            <li><i class="fa-solid fa-check"></i> Integração direta com canais de atendimento</li>
+            <li><i class="fa-solid fa-check"></i> Integração direta com canais de atendimento e WhatsApp</li>
           </ul>
           <div class="tags">
             <span class="tag">React.js</span>
-            <span class="tag tag-blue">JavaScript ES6+</span>
-            <span class="tag">CSS3 Modular</span>
+            <span class="tag tag-blue">TypeScript</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">shadcn/ui</span>
             <span class="tag">UI/UX</span>
           </div>
         </div>
         <div class="project-card-footer">
-          <a href="https://nsservicos.vercel.app/" target="_blank" class="project-btn project-btn-primary">
+          <a href="https://suaempresa-blue.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-primary">
             <i class="fa-solid fa-arrow-up-right-from-square"></i> Acessar Site
+          </a>
+          <a href="https://github.com/NiltonDev-Web/suaempresa" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-secondary">
+            <i class="fa-brands fa-github"></i> Código GitHub
           </a>
         </div>
       </div>
@@ -845,51 +851,59 @@ footer span { color: var(--teal); font-weight: 600; }
       <div class="project-card">
         <div class="project-card-body">
           <span class="project-category">E-Commerce Front-End</span>
-          <h3>Pink Blue Boutique</h3>
+          <h3>Pink Blue Boutique (Dona Alencar)</h3>
           <p>
-            Interface para e-commerce moderno com navegação dinâmica de rotas, catálogo dinâmico de produtos, gerenciamento de estado e layout estilizado com paleta vibrante otimizado para dispositivos móveis.
+            Interface para e-commerce moderno com vitrine e catálogo dinâmico de produtos de moda e acessórios, gerenciamento de estado e layout estilizado com paleta vibrante otimizado para dispositivos móveis.
           </p>
           <ul class="project-highlights">
-            <li><i class="fa-solid fa-check"></i> Roteamento cliente-side com React Router</li>
-            <li><i class="fa-solid fa-check"></i> Filtragem interativa de produtos e categorias</li>
+            <li><i class="fa-solid fa-check"></i> Roteamento e catálogo com filtros interativos</li>
+            <li><i class="fa-solid fa-check"></i> Gerenciamento de estado, layout responsivo e carrinho</li>
             <li><i class="fa-solid fa-check"></i> Micro-animações e design mobile-first</li>
           </ul>
           <div class="tags">
             <span class="tag tag-pink">React.js</span>
-            <span class="tag tag-blue">React Router</span>
-            <span class="tag">State Management</span>
-            <span class="tag">CSS Grid/Flexbox</span>
+            <span class="tag tag-blue">TypeScript</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">shadcn/ui</span>
+            <span class="tag">UI/UX</span>
           </div>
         </div>
         <div class="project-card-footer">
-          <a href="https://pink-blue-boutique.vercel.app/" target="_blank" class="project-btn project-btn-primary">
+          <a href="https://pink-blue-boutique.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-primary">
             <i class="fa-solid fa-arrow-up-right-from-square"></i> Acessar Loja
+          </a>
+          <a href="https://github.com/NiltonDev-Web/boutique-dona-alencar" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-secondary">
+            <i class="fa-brands fa-github"></i> Código GitHub
           </a>
         </div>
       </div>
 
-      <!-- PROJETO 4: Evening Wishes -->
+      <!-- PROJETO 4: Portfólio Profissional Dark Neon -->
       <div class="project-card">
         <div class="project-card-body">
-          <span class="project-category">Aplicação Interativa & Lógica</span>
-          <h3>Evening Wishes</h3>
+          <span class="project-category">Portfólio Web & Canvas Interativo</span>
+          <h3>Portfólio Profissional Dark Neon</h3>
           <p>
-            Projeto focado em interatividade visual e fluidez no Front-End, aplicando manipulação avançada de DOM, gerenciamento de eventos e boas práticas de versionamento com Git.
+            Portfólio moderno em tema dark cyberpunk com animação interativa de circuitos e partículas em HTML5 Canvas, métricas executivas para recrutadores e código semântico de alta velocidade.
           </p>
           <ul class="project-highlights">
-            <li><i class="fa-solid fa-check"></i> Manipulação dinâmica de elementos via JavaScript</li>
-            <li><i class="fa-solid fa-check"></i> Efeitos visuais refinados e responsividade</li>
-            <li><i class="fa-solid fa-check"></i> Versionamento semântico no GitHub</li>
+            <li><i class="fa-solid fa-check"></i> Background interativo em Canvas 2D de alta performance</li>
+            <li><i class="fa-solid fa-check"></i> Design 100% responsivo com efeitos neon CSS3</li>
+            <li><i class="fa-solid fa-check"></i> Deploy contínuo hospedado via GitHub Pages</li>
           </ul>
           <div class="tags">
-            <span class="tag tag-amber">JavaScript</span>
-            <span class="tag">CSS Animations</span>
-            <span class="tag">Git Workflow</span>
+            <span class="tag tag-amber">HTML5 Canvas</span>
+            <span class="tag">CSS3 Neon</span>
+            <span class="tag tag-blue">JavaScript ES6+</span>
+            <span class="tag">GitHub Pages</span>
           </div>
         </div>
         <div class="project-card-footer">
-          <a href="https://github.com/NiltonDev-Web/evening-wishes" target="_blank" class="project-btn project-btn-secondary">
-            <i class="fa-brands fa-github"></i> Ver no GitHub
+          <a href="https://niltondev-web.github.io/portifoliojnilton/" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-primary">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Portfólio
+          </a>
+          <a href="https://github.com/NiltonDev-Web/portifoliojnilton" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-secondary">
+            <i class="fa-brands fa-github"></i> Código GitHub
           </a>
         </div>
       </div>
@@ -1000,13 +1014,13 @@ footer span { color: var(--teal); font-weight: 600; }
       </div>
 
       <div class="contact-actions">
-        <a href="https://wa.me/5581991654555?text=Ol%C3%A1%20Jos%C3%A9%20Nilton,%20vi%20seu%20portf%C3%B3lio!" target="_blank" class="btn-neon btn-whatsapp">
+        <a href="https://wa.me/5581991654555?text=Ol%C3%A1%20Jos%C3%A9%20Nilton,%20vi%20seu%20portf%C3%B3lio!" target="_blank" rel="noopener noreferrer" class="btn-neon btn-whatsapp">
           <i class="fa-brands fa-whatsapp"></i> Iniciar Conversa no WhatsApp
         </a>
-        <a href="https://www.linkedin.com/in/jnilton-dev" target="_blank" class="btn-neon btn-secondary">
+        <a href="https://www.linkedin.com/in/jnilton-dev" target="_blank" rel="noopener noreferrer" class="btn-neon btn-secondary">
           <i class="fa-brands fa-linkedin"></i> Conectar no LinkedIn
         </a>
-        <a href="https://github.com/NiltonDev-Web" target="_blank" class="btn-neon btn-pink">
+        <a href="https://github.com/NiltonDev-Web" target="_blank" rel="noopener noreferrer" class="btn-neon btn-pink">
           <i class="fa-brands fa-github"></i> Explorar GitHub
         </a>
       </div>
@@ -1246,3 +1260,4 @@ draw();
 </script>
 </body>
 </html>
+

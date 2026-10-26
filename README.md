@@ -46,9 +46,9 @@ Graduado em Análise e Desenvolvimento de Sistemas (ADS) e Técnico em Automaç�
 | Projeto | Categoria | Tecnologias Principais | Acesso |
 | :--- | :--- | :--- | :--- |
 | **NeonTech Reports** *(Destaque)* | Web & App Android Nativo (.APK) | React 18, Capacitor, IndexedDB Offline, jsPDF, Tailwind CSS | [Demo Online](https://neon-report-hub.vercel.app/) • [Repositório](https://github.com/NiltonDev-Web/neon-report-hub) |
-| **NS Serviços Especializados** | Landing Page Comercial | React.js, JavaScript ES6+, CSS3 Modular, SEO | [Acessar Site](https://nsservicos.vercel.app/) |
-| **Pink Blue Boutique** | E-Commerce Front-End | React.js, React Router, State Management, CSS Grid | [Acessar Loja](https://pink-blue-boutique.vercel.app/) |
-| **Evening Wishes** | Aplicação Interativa | JavaScript ES6+, DOM Manipulation, CSS Animations | [Repositório](https://github.com/NiltonDev-Web/evening-wishes) |
+| **NS Serviços Especializados** | Landing Page Comercial & Industrial | React.js, TypeScript, Tailwind CSS, shadcn/ui, SEO | [Acessar Site](https://suaempresa-blue.vercel.app/) • [Repositório](https://github.com/NiltonDev-Web/suaempresa) |
+| **Pink Blue Boutique** *(Dona Alencar)* | E-Commerce Front-End | React.js, TypeScript, Tailwind CSS, shadcn/ui, Mobile-First | [Acessar Loja](https://pink-blue-boutique.vercel.app/) • [Repositório](https://github.com/NiltonDev-Web/boutique-dona-alencar) |
+| **Portfólio Dark Neon** *(Este Projeto)* | Portfólio Web Interativo & Canvas | HTML5 Canvas, CSS3 Neon, JavaScript ES6+, GitHub Pages | [Demo Online](https://niltondev-web.github.io/portifoliojnilton/) • [Repositório](https://github.com/NiltonDev-Web/portifoliojnilton) |
 
 ---
 
